@@ -30,6 +30,7 @@ function populateBreeds() {
         });
       new SlimSelect({
         select: breedSelect,
+        width: '200px',
       });
     })
     .catch(() => {

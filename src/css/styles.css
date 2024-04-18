@@ -12,7 +12,8 @@ body {
   max-width: 500px;
 }
 
-.breed-select {
+.breed-select,
+.ss-main {
   width: 200px;
 }
 
