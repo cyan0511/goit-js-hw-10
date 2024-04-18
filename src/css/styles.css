@@ -1,3 +1,7 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .cat-info {
   display: flex;
   margin-top: 10px;
@@ -5,4 +9,41 @@
 
 .container {
   padding-left: 10px;
+  max-width: 500px;
+}
+
+.breed-select {
+  width: 200px;
+}
+
+.temperament {
+  font-weight: bold;
+}
+
+.loader {
+  font-size: 32px;
+  font-weight: 600;
+  display: inline-block;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff6200;
+  box-sizing: border-box;
+  animation: spotlight 2s linear infinite alternate;
+}
+
+@keyframes spotlight {
+  0%,
+  20% {
+    opacity: 1;
+    letter-spacing: 2px;
+  }
+  80%,
+  100% {
+    opacity: 0;
+    letter-spacing: 32px;
+  }
+}
+
+img {
+  width: 500px;
 }
